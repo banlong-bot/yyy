@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      body {
+        background-image: url(SharedScreenshot.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+      }
+
+      .daohang {
+        height: 41px;
+        border-top: 3px solid rgb(64, 70, 77);
+        border-bottom: 1px solid rgb(48, 51, 54);
+        background-color: rgb(42, 51, 59);
+        line-height: 41px;
+      }
+      .daohang > a {
+        display: inline-block;
+        height: 41px;
+        padding: 0 50px;
+        font-size: 20px;
+        color: #ebe2e2;
+        text-decoration: none;
+      }
+      .daohang>a:hover {
+        background-color: darkgrey;
+        color: coral;
+      }
+
+      .daohang .search {
+        float: right;
+      }
+      .box {
+        width: 1226px;
+        height: 615px;
+        background-color: rgba(0, 255, 255, 0.2);
+
+        margin: 41px auto;
+      }
+      .left {
+        float: left;
+        width: 234px;
+        height: 615px;
+        background-color: black;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+      .right {
+        float: left;
+        width: 992px;
+        height: 615px;
+        background-color: seagreen;
+      }
+      .right > div {
+        width: 234px;
+        height: 300px;
+        float: left;
+        background-color: seashell;
+        margin-left: 14px;
+        margin-bottom: 14px;
+      }
+
+      img {
+       width: 234px;
+            height: 615px;
+            object-fit: cover;
+      }
+      a{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="daohang">
+      <a href="#">首页</a>
+      <a href="#">可变色</a>
+      <a href="#">干员一览</a>
+      <div class="search">
+        <input type="text" placeholder="请输入." name="id" ="" value="" />
+        <button><i>搜索</i></button>
+      </div>
+      <div class="box">
+        <div οnclick="location.href='http://www.dz37w.com'" class="left">
+        <a href="www.baidu.com"> <img border="0" src="luo.jpg" /></a>
+      </div>
+      <div class="right">
+        <div>盒子</div>
+        <div>盒子</div>
+        <div>盒子</div>
+        <div>盒子</div>
+        <div>盒子</div>
+        <div>盒子</div>
+        <div>盒子</div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>
